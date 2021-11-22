@@ -15,12 +15,11 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Arrays;
 
-import static br.com.esm.apimarvel.constantes.HerosConstantes.ENDPOINT_DYNAMO;
-import static br.com.esm.apimarvel.constantes.HerosConstantes.REGION_DYNAMO;
+import static br.com.esm.apimarvel.constantes.HeroesConstantes.ENDPOINT_DYNAMO;
+import static br.com.esm.apimarvel.constantes.HeroesConstantes.REGION_DYNAMO;
 
 
-@Configuration
-@EnableDynamoDBRepositories
+
 public class HeroesTable {
     public static void main(String[] args) throws Exception{
 

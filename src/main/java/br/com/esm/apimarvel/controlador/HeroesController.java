@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import static br.com.esm.apimarvel.constantes.HerosConstantes.HEROES_ENDPOINT_LOCAL;
+import static br.com.esm.apimarvel.constantes.HeroesConstantes.HEROES_ENDPOINT_LOCAL;
 
 @RestController
 @Slf4j

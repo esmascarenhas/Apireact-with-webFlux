@@ -13,6 +13,7 @@ import org.springframework.util.StringUtils;
 @Configuration
 @EnableDynamoDBRepositories
 public class DynamoConfig {
+
     @Value("${amazon.dynamodb.endpoint}")
     private String amazonDynamoDBEndpoint;
 

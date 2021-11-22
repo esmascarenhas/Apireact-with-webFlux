@@ -1,6 +1,6 @@
 package br.com.esm.apimarvel.constantes;
 
-public class HerosConstantes {
+public class HeroesConstantes {
 
     public static final String HEROES_ENDPOINT_LOCAL="/heroes";
     public static final String ENDPOINT_DYNAMO= "http://localhost:8000";

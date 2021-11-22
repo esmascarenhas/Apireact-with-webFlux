@@ -8,8 +8,8 @@ import com.amazonaws.services.dynamodbv2.document.Item;
 import com.amazonaws.services.dynamodbv2.document.PutItemOutcome;
 import com.amazonaws.services.dynamodbv2.document.Table;
 
-import static br.com.esm.apimarvel.constantes.HerosConstantes.ENDPOINT_DYNAMO;
-import static br.com.esm.apimarvel.constantes.HerosConstantes.REGION_DYNAMO;
+import static br.com.esm.apimarvel.constantes.HeroesConstantes.ENDPOINT_DYNAMO;
+import static br.com.esm.apimarvel.constantes.HeroesConstantes.REGION_DYNAMO;
 
 
 public class HeroesData {
